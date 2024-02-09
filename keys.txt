@@ -1,0 +1,101 @@
+anshammohameda@Y6P4KM20M6 moneyhub-api-client % node ./examples/jwks/create-jwks.js
+
+Options
+
+  --key-alg string     
+  --key-use string     
+  --key-size number    
+  --alg string         
+
+Public keys
+This can be used as the JWKS in your API client configuration in the Moneyhub Admin portal
+{
+    "keys": [
+        {
+            "kty": "RSA",
+            "n": "nNwpiZNpWa1E5SNglA5-hqTE229V7mYnmau6Ei8VqUvjOayF5AtnWLC54Q04iOENiWkGZ0cz8Wu8qwdlQRQF2zmYHR8qnC1j8HUydXkPf1PDpws-MrWk5tsuwS1RcJ_Cb9tSk6M3ylYtl51S1o1vIkraOsx9042V3taN5kb8nQKzbPgRff2V6h-MYQmrgMFm1hV6EFzuuKeZcEbz35VH14voGThrYIJ9GuH-QysiUWHGLhvbOALQ1vd898EUJqD4ptLE4Bpd6q5VsdEUfFUHLfsMEgXG0OurGttXCEn_10JgGe7QluNYIMbIAn-Mh6fQ5W0pbUH5330q1qahPYX7hQ",
+            "e": "AQAB",
+            "kid": "dccf9pfSVHmb1zZXIxjI2n6blvTUYtkef8bG3fLaO_8",
+            "use": "sig",
+            "alg": "RS256"
+        }
+    ]
+}
+
+
+Private keys
+This can be used as the keys value when configuring the moneyhub api client
+{
+    "keys": [
+        {
+            "kty": "RSA",
+            "n": "nNwpiZNpWa1E5SNglA5-hqTE229V7mYnmau6Ei8VqUvjOayF5AtnWLC54Q04iOENiWkGZ0cz8Wu8qwdlQRQF2zmYHR8qnC1j8HUydXkPf1PDpws-MrWk5tsuwS1RcJ_Cb9tSk6M3ylYtl51S1o1vIkraOsx9042V3taN5kb8nQKzbPgRff2V6h-MYQmrgMFm1hV6EFzuuKeZcEbz35VH14voGThrYIJ9GuH-QysiUWHGLhvbOALQ1vd898EUJqD4ptLE4Bpd6q5VsdEUfFUHLfsMEgXG0OurGttXCEn_10JgGe7QluNYIMbIAn-Mh6fQ5W0pbUH5330q1qahPYX7hQ",
+            "e": "AQAB",
+            "d": "ImQ_EzPn2EqeHWMpTKz03s6HftklTRTGv_Gf5Va_eBP0aPPDk2FQsmhlCMveRlyZnDQTvFcnM1p8zj7b223pbsxs5o2ryPxGujTn8EuvsyoJbrmPVIzw79DEqoQmI_xTJDVBIK-bjthgPKq4u-Pcpvcka9nkCJs1bds6129e-YmCw1JzRoj-KusYTOdnIPV3lFohcXjtIcrOo7im9VaHP8sMeSORIj9afOzniwvoocpsTDqDAMPqImV4u2jC_t_3ZC_U1ErCwATQfIt1mupIEuAzfOR1nJF2hFI3Gk_795etDVk11ntKc8NvEBzvyPoZPHYHEY2DujtUgQ6zG3EhoQ",
+            "p": "3Rcs1fLvUC7CfOqdQ7NLbbZ-0GCGuq5CJnYzp_B9CRePgWNO8L5l3fkwgiFq8NxkXlexuLLDT2pPl7JT3zC_tLLt_vzIKJLohcWkf4-v7-2r3t9kBaPJBejO1QIxAsV3PJD-dKtDsdP-gTxFALemdfCbTp8HMA1Vw--CM27bTDk",
+            "q": "taCwaJ5GSqaV0ZZR0r8Slc06zndoDZ3BLTwvk5cy9XdqYB2DGklzNnT1exBRiv0IahauRwVUZ9pNp5N4Y2DCdOQRpsvvk9fzIJ-MRP6bBmBkKFCCrJ2yQnZcVZ3al2sPBkxXcJxErn6QCLYEGhNscbuyT4ta9ZT0WHuVKp7BQa0",
+            "dp": "aBR04vNOfazFmhDIoApTw_5ZjLckNdW7Bmg2wSSReCpDQGID04mOYwTgNSKOOX1HMrKN06k0ELq3ZW5p1XQZi3OAXr2ZbKBcHj2AxxxZctWsR2tapt0H0WRbmiNB91AGZdjMMRg-8gQel7BLu565GmR-eHCc7Z4ZdffWj2fsjOE",
+            "dq": "bW7vO2m50nrCpDBdBozHpuir-QCq-iFF5npv9A5SzuFvf4_okSsWNwaLbeWsLAE_U6Rsxy_n5lb7GO_axo3jPEi6dfREWqDvxYU8H8oEH_huAHhZ86VkZXUpNxDQRxFjURkoShptq3FoWUdJ-2gem_xKeHDvki54duOnQbG7oVU",
+            "qi": "F8ai1s3KQ9jH2zhe2x9eELdT9BLXTh41tt2IqFXCVoHMJ8yiWX4ktBumU06qtV1biX6_tI9TWqvV8SwTkc0_4JllVX8DvBfHHkrGnjJXs7qYswKnja7wifig84Om8TWXUwQ4OL9Kwh9WAFJJ-3m6GbZvwhkvqBw0rA3YDVRN3s8",
+            "kid": "dccf9pfSVHmb1zZXIxjI2n6blvTUYtkef8bG3fLaO_8",
+            "use": "sig",
+            "alg": "RS256"
+        }
+    ]
+}
+
+
+
+
+anshammohameda@Y6P4KM20M6 moneyhub-api-client % node ./examples/jwks/create-jwks.js
+
+Options
+
+  --key-alg string
+  --key-use string
+  --key-size number
+  --alg string
+
+Options
+
+  --key-alg string     
+  --key-use string     
+  --key-size number    
+  --alg string         
+
+Public keys
+This can be used as the JWKS in your API client configuration in the Moneyhub Admin portal
+{
+    "keys": [
+        {
+            "kty": "RSA",
+            "n": "oNm2O7Y0gcBW79ZIiikLoTUreEhZDR53thuzyKF5aRhgNTFvR_zHJhnGqVscIusz3d8WRHyGqIsX1uaKZqoUoYBHdQPhgJ9mTx3N_rjqOve5vsEek1ggaIo2xzXcbp9HoS69og5B4l2ehZupunZAtzF2GN2KxvkeR4O_w4APlegpOQ5xph4CrN8XDhNR5H0STN7MYfzwZWtIopCtDldnXy6ju-F7xWgWDpiTmk14I89G5mytUQBgB5ZHkdlqDuayjK58CNav9XyXanDqqtTrCMooeDxBVd4mDtii_uvU50cwemqs35XaL8KfsYdv526eZMU8XEYjmiFzp8HUFJW9Ww",
+            "e": "AQAB",
+            "kid": "DJ6Z7McTbplB7QoJItrQUoCGggbAzwrQHnrusAtqHBg",
+            "use": "sig",
+            "alg": "RS256"
+        }
+    ]
+}
+
+
+Private keys
+This can be used as the keys value when configuring the moneyhub api client
+{
+    "keys": [
+        {
+            "kty": "RSA",
+            "n": "oNm2O7Y0gcBW79ZIiikLoTUreEhZDR53thuzyKF5aRhgNTFvR_zHJhnGqVscIusz3d8WRHyGqIsX1uaKZqoUoYBHdQPhgJ9mTx3N_rjqOve5vsEek1ggaIo2xzXcbp9HoS69og5B4l2ehZupunZAtzF2GN2KxvkeR4O_w4APlegpOQ5xph4CrN8XDhNR5H0STN7MYfzwZWtIopCtDldnXy6ju-F7xWgWDpiTmk14I89G5mytUQBgB5ZHkdlqDuayjK58CNav9XyXanDqqtTrCMooeDxBVd4mDtii_uvU50cwemqs35XaL8KfsYdv526eZMU8XEYjmiFzp8HUFJW9Ww",
+            "e": "AQAB",
+            "d": "Hmvuvm5gkeW5y5SglZjbvTqcJRyx0vxfMc8deqWnm8vjbkwSOvBBDiCz5RX5RVVsstrdkEhpA3mDIb7qkC48xqrHWQdJ4BTFudLuQe3hRxPRSpWl3cI-Jud1Iso6DaYMWxzG-t5tcY25TJW7TSvOY5d0OZG1DJrTMj1lyGjxCa3ZHQ-yrNmnEhEc6ZfwuMYRyDWkzvcuG3ZrzpxohM9JZiWLNmne4Pl9EefPWG-MsizVPl9RKJg6-4ewDit8Kj3Or0DRqiGVn-5IuUExdczTbGIupzfN7lFkR7tzQqytmlqbog2KKWatX0Zllf5b1D03jyXpZBA8X9SDcDzqu0D68Q",
+            "p": "2qcBxpSCOgDh_KAWNbpraOu387oove4-QG5-43tv7Z_rfECT4XG8yjoaZx8icdjxMuHwe7dW_1fzAdOd_CfAP5E71_BDDz0QZBFc4pSSPpbk_PB4sNrXNscw0A8I5nofUXcvj0jEeBtZdhELTnbtz3qdffvlAGG121jka16tVek",
+            "q": "vFM0boBdzexxxnVoBtCFD9XwPPT9ldDyGiFFNj99IF7aXyTIsQyCoOoOvjUCpPAFw_sjX26h46JX_8BZKdWti48BsFLq6hy9EO2ZZaW7_NLu9YNgPRmTx3UZS11vDz5-wrlutBzsoTfrPbw-i6stw8ZfqYRYSfG_EiCikV-veqM",
+            "dp": "gdU3LbZTWaPajMp2RbMLQoLtePDqblVAa7vw5p0OSlhyWRZzeSOzSZWUxfTr3BRIrMESrjOgmgCcUFJa9jaYZmaT1VZaS3sj93eD4xr7d-Tb1gHoeIOJ1YITzweObmTHofUWrYs09mivB3d5cj8WWOPjDsL7KO3cMYIoKEVQwbk",
+            "dq": "BzW0Qyq87J5JuMxT4DbpcTLCkMLcVnj6W8-8Q5hopO2ctJnG6ShOc_Sh_dwvrrrVrawWrZehsQJNFih6AWUB0N73tJVoEvBouJYwEjknGkXFCjcuXwh0pOUxw7XfA5lj5vaMa27UDFQEuIdVaalzBhS5ItdDPgl4RCxlrOUZ5bs",
+            "qi": "16NOzZmKHqdiincGkXO1W81ZVTWq25l1Kyx1yhrWTiMZcIWajI3n9LCr-fxfouIB1ezus8xoD9IiffEXn2zZdIRQncwZ5iuZfV4oyQY78sf1Oh1BJ6MAfEVZAkcJhnD9vh4CnIWRdBw7vcYGzKsLdeThl0IZeRD9vZK-E4COZkc",
+            "kid": "DJ6Z7McTbplB7QoJItrQUoCGggbAzwrQHnrusAtqHBg",
+            "use": "sig",
+            "alg": "RS256"
+        }
+    ]
+}
